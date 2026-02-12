@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sevilla-Desktop - Gastronomía</title>
+    <meta name="author" content="Hugo Tejedor" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Sevilla-Desktop</a></h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="gastronomia.html" class="activo">Gastronomía</a>
+            <a href="rutas.html">Rutas</a>
+            <a href="meteorologia.html">Meteorología</a>
+            <a href="juego.html">Juego</a>
+            <a href="reservas.php">Reservas</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: <a href="index.html">Inicio</a> >> Gastronomía</p>
+
+    <main>
+        <section>
+            <h2>Gastronomía Típica de Sevilla</h2>
+            
+            <h3>Platos Principales</h3>
+            <ol>
+                <li>Gazpacho andaluz</li>
+                <li>Pescaito frito</li>
+                <li>Soldaditos de Pavía
+                    <ul>
+                        <li>Bacalao desalado</li>
+                        <li>Rebozado de harina y azafrán</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Ingredientes Comunes</h3>
+            <ul>
+                <li>Aceite de oliva virgen extra</li>
+                <li>Aceitunas de mesa (Manzanilla y Gordal)</li>
+                <li>Naranjas amargas</li>
+            </ul>
+
+            <h3>Conceptos Gastronómicos</h3>
+            <dl>
+                <dt>Tapeo</dt>
+                <dd>Costumbre de comer pequeñas raciones de diferentes platos.</dd>
+                <dt>Montadito</dt>
+                <dd>Pequeño bocadillo de diversos ingredientes calientes o fríos.</dd>
+                <dt>Adobo</dt>
+                <dd>Técnica de marinado para carnes y pescados con especias y vinagre.</dd>
+            </dl>
+
+            <h3>Estadísticas de Consumo</h3>
+            <table border="1">
+                <caption>Consumo estimado de platos típicos por temporada</caption>
+                <thead>
+                    <tr>
+                        <th id="plato" scope="col">Plato</th>
+                        <th id="temporada" scope="col">Temporada Alta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td headers="plato">Gazpacho</td>
+                        <td headers="temporada">Verano</td>
+                    </tr>
+                    <tr>
+                        <td headers="plato">Cocido Andaluz</td>
+                        <td headers="temporada">Invierno</td>
+                    </tr>
+                    <tr>
+                        <td headers="plato">Torrijas</td>
+                        <td headers="temporada">Semana Santa</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Galería Multimedia</h3>
+            <img src="multimedia/gastronomia_sevilla.jpg" alt="Surtido de tapas típicas sevillanas en un plato de cerámica" />
+            
+            <video controls>
+                <source src="multimedia/receta_gazpacho.mp4" type="video/mp4">
+                <source src="multimedia/receta_gazpacho.webm" type="video/webm">
+                Tu navegador no soporta el vídeo.
+            </video>
+        </section>
+    </main>
+</body>
+</html>

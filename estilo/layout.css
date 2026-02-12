@@ -1,0 +1,26 @@
+/* Especificidad: (0,0,1) */
+header {
+    display: flex; /* Uso de Flexible Box Layout  */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Especificidad: (0,0,1) */
+nav {
+    display: flex; /* Uso de Flexible Box Layout  */
+    gap: 10px;
+}
+
+/* Media Query para dispositivos móviles  */
+@media (max-width: 465px) {
+    /* Especificidad: (0,0,1) */
+    header {
+        flex-direction: column; /* Redefinición por media query [cite: 106] */
+    }
+
+    /* Especificidad: (0,0,1) */
+    nav {
+        flex-direction: column; /* Redefinición por media query [cite: 106] */
+    }
+}

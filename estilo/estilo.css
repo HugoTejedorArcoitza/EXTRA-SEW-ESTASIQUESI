@@ -1,0 +1,45 @@
+/* Especificidad: (0,0,1) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /* Heredado por todos los elementos hijos [cite: 104] */
+    color: #333333;
+}
+
+/* Especificidad: (0,0,1) */
+header {
+    background-color: #9c27b0; 
+}
+
+/* Especificidad: (0,0,2) */
+header h1 {
+    font-size: 2em;
+}
+
+/* Especificidad: (0,0,3) */
+header h1 a {
+    text-decoration: none;
+    color: #ffffff; /* Color de primer plano que hereda del fondo del header [cite: 104] */
+}
+
+/* Especificidad: (0,0,2) */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Especificidad: (0,1,2) - Excepción permitida de clase [cite: 58, 92] */
+nav a.activo {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Especificidad: (0,0,2) - Estilo para migas de navegación  */
+main > p {
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+/* Especificidad: (0,0,1) */
+table {
+    width: 100%;
+}
