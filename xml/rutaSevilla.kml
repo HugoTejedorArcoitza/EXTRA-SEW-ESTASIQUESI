@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="document">
+	<name>Mapa sin nombre</name>
+	<gx:CascadingStyle kml:id="__managed_style_5104F3FACB3E2B6BE629">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_496E96DFEE3E2B6BE629">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_39476967E23E2B6BE629">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_496E96DFEE3E2B6BE629</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_5104F3FACB3E2B6BE629</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0982D609023E2B6BE624">
+		<name>Ruta sin título</name>
+		<snippet></snippet>
+		<LookAt>
+			<longitude>-5.996076462998575</longitude>
+			<latitude>37.38911473129409</latitude>
+			<altitude>26.13317493404973</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2172.583241260727</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_39476967E23E2B6BE629</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.990219198448566,37.38324517520182,0 -5.989851208414581,37.38512973408459,0 -5.992094965634762,37.38608919958894,0 -5.994089483692095,37.38004750448165,0 -6.000228867229048,37.38301309403492,0 -5.99306119811236,37.39006890823759,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

@@ -2,38 +2,110 @@
 <!DOCTYPE rutas SYSTEM "rutas.dtd">
 <rutas>
     <ruta>
-        <nombre>Nombre de la Ruta</nombre>
-        <tipo>Tipo de Ruta</tipo>
-        <transporte>Medio de    Transporte</transporte>
-        <duracion>2 horas</duracion>
-        <agencia>Nombre Agencia</agencia>
-        <descripcion>Descripción de la ruta...</descripcion>
-        <personas>Público objetivo</personas>
-        <lugarInicio>Punto de inicio</lugarInicio>
-        <direccionInicio>Dirección física</direccionInicio>
+        <nombre>Sevilla Monumental: Paseo por el Casco Histórico y Triana</nombre>
+        <tipo>Cultural y Paisajística</tipo>
+        <transporte>A pie</transporte>
+        <fecha>2024-04-10</fecha>
+        <hora>10:00</hora>
+        <duracion>4 horas</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Un recorrido a pie por los monumentos más emblemáticos de Sevilla, atravesando el barrio de Santa Cruz, bordeando el Guadalquivir y descubriendo la esencia de Triana.</descripcion>
+        <personas>Apta para todos los públicos y personas en forma física normal</personas>
+        <lugarInicio>Patio de Banderas (Alcázar)</lugarInicio>
+        <direccionInicio>Plaza del Patio de Banderas, s/n</direccionInicio>
         <coordenada>
-            <longitud>-5.6611</longitud>
-            <latitud>43.5322</latitud>
-            <altitud>10</altitud>
+            <longitud>-5.9902257</longitud>
+            <latitud>37.3830519</latitud>
+            <altitud>12</altitud>
         </coordenada>
         <referencias>
-            <referencia>http://ref1.com</referencia>
-            <referencia>http://ref2.com</referencia>
-            <referencia>http://ref3.com</referencia>
+            <referencia>https://blog.viajesyfotos.net/sevilla-ruta-a-pie-con-mapa/</referencia>
+            <referencia>https://www.visitasevilla.es/</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Casco_Antiguo_(Sevilla)</referencia>
         </referencias>
-        <recomendacion>8</recomendacion>
+        <recomendacion>10</recomendacion>
         <hitos>
             <hito>
-                <nombreHito>Hito 1</nombreHito>
-                <descripcionHito>Descripción del hito</descripcionHito>
+                <nombreHito>Real Alcázar de Sevilla</nombreHito>
+                <descripcionHito>Palacio real de estilo mudéjar y jardines históricos.</descripcionHito>
                 <coordenada>
-                    <longitud>-5.6620</longitud>
-                    <latitud>43.5330</latitud>
+                    <longitud>-5.9902257</longitud>
+                    <latitud>37.3830519</latitud>
+                    <altitud>12</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">0</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>alcazar.jpg</foto>
+                </galeriaFotos>
+            </hito>
+
+            <hito>
+                <nombreHito>Hospital Los Venerables</nombreHito>
+                <descripcionHito>Edificio barroco del siglo XVII en el barrio de Santa Cruz.</descripcionHito>
+                <coordenada>
+                    <longitud>-5.9899354</longitud>
+                    <latitud>37.3851509</latitud>
+                    <altitud>14</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">250</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>venerables.jpg</foto>
+                </galeriaFotos>
+            </hito>
+
+            <hito>
+                <nombreHito>Catedral de Sevilla</nombreHito>
+                <descripcionHito>La catedral gótica más grande del mundo y su Giralda.</descripcionHito>
+                <coordenada>
+                    <longitud>-5.9931068</longitud>
+                    <latitud>37.3858247</latitud>
+                    <altitud>11</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">350</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>catedral.jpg</foto>
+                </galeriaFotos>
+            </hito>
+
+            <hito>
+                <nombreHito>Palacio de San Telmo</nombreHito>
+                <descripcionHito>Sede de la Presidencia de la Junta, joya del barroco sevillano.</descripcionHito>
+                <coordenada>
+                    <longitud>-5.9936221</longitud>
+                    <latitud>37.380243</latitud>
+                    <altitud>9</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">650</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>santelmo.jpg</foto>
+                </galeriaFotos>
+            </hito>
+
+            <hito>
+                <nombreHito>Real Parroquia de Señora Santa Ana</nombreHito>
+                <descripcionHito>Iglesia gótico-mudéjar en el corazón del barrio de Triana.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0005431</longitud>
+                    <latitud>37.3828228</latitud>
+                    <altitud>10</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">750</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>santaana.jpg</foto>
+                </galeriaFotos>
+            </hito>
+
+            <hito>
+                <nombreHito>Iglesia Colegial del Divino Salvador</nombreHito>
+                <descripcionHito>Segundo templo más grande de la ciudad tras la Catedral.</descripcionHito>
+                <coordenada>
+                    <longitud>-5.9928375</longitud>
+                    <latitud>37.3899966</latitud>
                     <altitud>15</altitud>
                 </coordenada>
-                <distanciaAnterior unidades="metros">500</distanciaAnterior>
+                <distanciaAnterior unidades="metros">1200</distanciaAnterior>
                 <galeriaFotos>
-                    <foto>foto1.jpg</foto>
+                    <foto>salvador.jpg</foto>
                 </galeriaFotos>
             </hito>
         </hitos>
