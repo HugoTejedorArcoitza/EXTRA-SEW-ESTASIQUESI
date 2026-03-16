@@ -110,4 +110,200 @@
             </hito>
         </hitos>
     </ruta>
+
+    <ruta>
+        <nombre>Ruta Arqueológica de Itálica</nombre>
+        <tipo>Arqueológica e Histórica</tipo>
+        <transporte>A pie</transporte>
+        <fecha>2024-06-12</fecha>
+        <hora>10:30</hora>
+        <duracion>2 horas</duracion>
+        <agencia>Guías Santiponce</agencia>
+        <descripcion>Recorrido por la primera ciudad romana fundada en Hispania, cuna de los emperadores Trajano y Adriano.</descripcion>
+        <personas>Apta para todos los públicos y visitas escolares</personas>
+        <lugarInicio>Entrada Principal Conjunto Arqueológico</lugarInicio>
+        <direccionInicio>Avenida de Extremadura, s/n, Santiponce</direccionInicio>
+        <coordenada>
+            <longitud>-6.0445</longitud>
+            <latitud>37.4440</latitud>
+            <altitud>35</altitud>
+        </coordenada>
+        <referencias>
+            <referencia>https://www.museosdeandalucia.es/web/conjuntoarqueologicodeitalica</referencia>
+            <referencia>https://es.wikipedia.org/wiki/It%C3%A1lica</referencia>
+            <referencia>https://www.andalucia.org/es/santiponce-turismo-cultural-italica</referencia>
+        </referencias>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>Anfiteatro Romano</nombreHito>
+                <descripcionHito>Uno de los más grandes del imperio, con capacidad para 25.000 espectadores.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0435</longitud>
+                    <latitud>37.4455</latitud>
+                    <altitud>32</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">0</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>anfiteatro.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Edificio de la Exedra</nombreHito>
+                <descripcionHito>Complejo de carácter público con una gran zona semicircular y termas propias.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0465</longitud>
+                    <latitud>37.4435</latitud>
+                    <altitud>42</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">350</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>exedra.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Casa de los Pájaros</nombreHito>
+                <descripcionHito>Vivienda señorial famosa por sus mosaicos detallados que representan diversas especies de aves.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0478</longitud>
+                    <latitud>37.4442</latitud>
+                    <altitud>45</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">150</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>pajaros.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Casa del Planetario</nombreHito>
+                <descripcionHito>Residencia que conserva un mosaico circular con las divinidades que dan nombre a los días de la semana.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0485</longitud>
+                    <latitud>37.4448</latitud>
+                    <altitud>46</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">100</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>planetario.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Termas Mayores</nombreHito>
+                <descripcionHito>Centro de ocio y salud de la ciudad con restos de la palestra y salas de baño.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0472</longitud>
+                    <latitud>37.4428</latitud>
+                    <altitud>38</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">280</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>termas.jpg</foto>
+                </galeriaFotos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre>Ruta Ciclista: Del Nervión al Aljarafe</nombre>
+        <tipo>Deportiva y Paisajística</tipo>
+        <transporte>Bicicleta</transporte>
+        <fecha>2024-05-20</fecha>
+        <hora>08:30</hora>
+        <duracion>3 horas</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta circular que parte del centro de Sevilla, cruza el Guadalquivir y asciende por las colinas del Aljarafe visitando Santiponce y Salteras.</descripcion>
+        <personas>Personas en buena forma física</personas>
+        <lugarInicio>Hospital San Juan de Dios (Nervión)</lugarInicio>
+        <direccionInicio>Calle San Juan de Dios, Sevilla</direccionInicio>
+        <coordenada>
+            <longitud>-5.9755</longitud>
+            <latitud>37.3838</latitud>
+            <altitud>12</altitud>
+        </coordenada>
+        <referencias>
+            <referencia>https://www.sevilla.org/servicios/movilidad/bicicleta/red-de-itinerarios</referencia>
+            <referencia>https://es.wikiloc.com/rutas-ciclismo/sevilla-santiponce-salteras</referencia>
+            <referencia>https://www.ayto-salteras.org/turismo/</referencia>
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>San Juan de Dios (Salida)</nombreHito>
+                <descripcionHito>Punto de encuentro en el barrio de Nervión para iniciar la marcha.</descripcionHito>
+                <coordenada>
+                    <longitud>-5.9755</longitud>
+                    <latitud>37.3838</latitud>
+                    <altitud>12</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">0</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>sanjuan.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Torre Sevilla (Torre Pelli)</nombreHito>
+                <descripcionHito>Paso por el rascacielos más alto de Andalucía antes de cruzar hacia el Aljarafe.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0105</longitud>
+                    <latitud>37.3915</latitud>
+                    <altitud>10</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">3200</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>torrepelli.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Pueblo de Santiponce</nombreHito>
+                <descripcionHito>Localidad famosa por albergar las ruinas de Itálica y el Monasterio de San Isidoro.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0452</longitud>
+                    <latitud>37.4365</latitud>
+                    <altitud>18</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">6500</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>santiponce.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Urbanización La Alondra</nombreHito>
+                <descripcionHito>Zona de paso residencial en plena ascensión hacia la cornisa del Aljarafe.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.0680</longitud>
+                    <latitud>37.4250</latitud>
+                    <altitud>65</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">4200</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>alondra.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Pueblo de Salteras</nombreHito>
+                <descripcionHito>Punto más alto de la ruta, conocido por su gastronomía y vistas de la vega.</descripcionHito>
+                <coordenada>
+                    <longitud>-6.1130</longitud>
+                    <latitud>37.4170</latitud>
+                    <altitud>152</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">5100</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>salteras.jpg</foto>
+                </galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Retorno al parque federico garcía lorca</nombreHito>
+                <descripcionHito>Cierre de la ruta circular regresando al punto de inicio en Sevilla.</descripcionHito>
+                <coordenada>
+                    <longitud>-5.9755</longitud>
+                    <latitud>37.3838</latitud>
+                    <altitud>12</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">18500</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>final.jpg</foto>
+                </galeriaFotos>
+            </hito>
+        </hitos>
+    </ruta>
 </rutas>
