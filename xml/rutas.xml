@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta>
+        <nombre>Nombre de la Ruta</nombre>
+        <tipo>Tipo de Ruta</tipo>
+        <transporte>Medio de    Transporte</transporte>
+        <duracion>2 horas</duracion>
+        <agencia>Nombre Agencia</agencia>
+        <descripcion>Descripción de la ruta...</descripcion>
+        <personas>Público objetivo</personas>
+        <lugarInicio>Punto de inicio</lugarInicio>
+        <direccionInicio>Dirección física</direccionInicio>
+        <coordenada>
+            <longitud>-5.6611</longitud>
+            <latitud>43.5322</latitud>
+            <altitud>10</altitud>
+        </coordenada>
+        <referencias>
+            <referencia>http://ref1.com</referencia>
+            <referencia>http://ref2.com</referencia>
+            <referencia>http://ref3.com</referencia>
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>Hito 1</nombreHito>
+                <descripcionHito>Descripción del hito</descripcionHito>
+                <coordenada>
+                    <longitud>-5.6620</longitud>
+                    <latitud>43.5330</latitud>
+                    <altitud>15</altitud>
+                </coordenada>
+                <distanciaAnterior unidades="metros">500</distanciaAnterior>
+                <galeriaFotos>
+                    <foto>foto1.jpg</foto>
+                </galeriaFotos>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>
