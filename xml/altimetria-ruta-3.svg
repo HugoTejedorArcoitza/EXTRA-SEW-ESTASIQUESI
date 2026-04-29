@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-label="Altimetría de Guadalquivir y Parque de María Luisa">
+    <title>Altimetría de Guadalquivir y Parque de María Luisa</title>
+    <desc>Polilínea cerrada con escala horizontal en metros y escala vertical en metros.</desc>
+    <rect x="0" y="0" width="900" height="320" fill="#ffffff" />
+    <line x1="50" y1="270" x2="850" y2="270" stroke="#263238" stroke-width="2" />
+    <line x1="50" y1="50" x2="50" y2="270" stroke="#263238" stroke-width="2" />
+    <text x="450.0" y="308" text-anchor="middle">Distancia acumulada: 2000 m</text>
+    <text x="18" y="160.0" transform="rotate(-90 18 160.0)">Altitud: 7-11 m</text>
+    <polyline points="50,270 50.00,270.00 190.00,160.00 410.00,50.00 570.00,105.00 850.00,215.00 850,270" fill="#dff1ed" stroke="#006d75" stroke-width="4" />
+    <circle cx="50.00" cy="270.00" r="5" />
+        <circle cx="190.00" cy="160.00" r="5" />
+        <circle cx="410.00" cy="50.00" r="5" />
+        <circle cx="570.00" cy="105.00" r="5" />
+        <circle cx="850.00" cy="215.00" r="5" />
+    <text x="50.00" y="258.00" transform="rotate(-25 50.00 258.00)">Torre del Oro</text><text x="190.00" y="148.00" transform="rotate(-25 190.00 148.00)">Palacio de San Telmo</text><text x="410.00" y="38.00" transform="rotate(-25 410.00 38.00)">Glorieta de Bécquer</text><text x="570.00" y="93.00" transform="rotate(-25 570.00 93.00)">Plaza de España</text><text x="850.00" y="203.00" transform="rotate(-25 850.00 203.00)">Costurero de la Reina</text>
+</svg>

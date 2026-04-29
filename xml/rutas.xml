@@ -2,112 +2,191 @@
 <!DOCTYPE rutas SYSTEM "rutas.dtd">
 <rutas>
     <ruta>
-        <nombre>Sevilla Monumental: Paseo por el Casco Histórico y Triana</nombre>
-        <tipo>Cultural y Paisajística</tipo>
+        <nombre>Sevilla Monumental y Triana</nombre>
+        <tipo>Arquitectura y monumentos</tipo>
         <transporte>A pie</transporte>
-        <fecha>2024-04-10</fecha>
-        <hora>10:00</hora>
+        <fecha>2026-05-02</fecha>
+        <hora>10:00:00</hora>
         <duracion>4 horas</duracion>
         <agencia>Sin agencia</agencia>
-        <descripcion>Un recorrido a pie por los monumentos más emblemáticos de Sevilla, atravesando el barrio de Santa Cruz, bordeando el Guadalquivir y descubriendo la esencia de Triana.</descripcion>
-        <personas>Apta para todos los públicos y personas en forma física normal</personas>
-        <lugarInicio>Patio de Banderas (Alcázar)</lugarInicio>
-        <direccionInicio>Plaza del Patio de Banderas, s/n</direccionInicio>
+        <descripcion>Recorrido por el casco histórico de Sevilla, el entorno de la Catedral, el Alcázar, el río Guadalquivir y el barrio de Triana.</descripcion>
+        <personas>Apta para todos los públicos con movilidad urbana normal.</personas>
+        <lugarInicio>Patio de Banderas</lugarInicio>
+        <direccionInicio>Plaza del Patio de Banderas, s/n, Sevilla</direccionInicio>
         <coordenada>
-            <longitud>-5.9902257</longitud>
-            <latitud>37.3830519</latitud>
+            <longitud>-5.990226</longitud>
+            <latitud>37.383052</latitud>
             <altitud>12</altitud>
         </coordenada>
         <referencias>
-            <referencia>https://blog.viajesyfotos.net/sevilla-ruta-a-pie-con-mapa/</referencia>
             <referencia>https://www.visitasevilla.es/</referencia>
-            <referencia>https://es.wikipedia.org/wiki/Casco_Antiguo_(Sevilla)</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Catedral_de_Santa_Mar%C3%ADa_de_la_Sede_de_Sevilla</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Real_Alc%C3%A1zar_de_Sevilla</referencia>
         </referencias>
         <recomendacion>10</recomendacion>
         <hitos>
             <hito>
                 <nombreHito>Real Alcázar de Sevilla</nombreHito>
-                <descripcionHito>Palacio real de estilo mudéjar y jardines históricos.</descripcionHito>
-                <coordenada>
-                    <longitud>-5.9902257</longitud>
-                    <latitud>37.3830519</latitud>
-                    <altitud>12</altitud>
-                </coordenada>
+                <descripcionHito>Palacio real con arquitectura mudéjar, patios y jardines históricos.</descripcionHito>
+                <coordenada><longitud>-5.990226</longitud><latitud>37.383052</latitud><altitud>12</altitud></coordenada>
                 <distanciaAnterior unidades="metros">0</distanciaAnterior>
-                <galeriaFotos>
-                    <foto>alcazar.jpg</foto>
-                </galeriaFotos>
+                <galeriaFotos><foto>alcazar.jpg</foto></galeriaFotos>
             </hito>
-
             <hito>
-                <nombreHito>Hospital Los Venerables</nombreHito>
-                <descripcionHito>Edificio barroco del siglo XVII en el barrio de Santa Cruz.</descripcionHito>
-                <coordenada>
-                    <longitud>-5.9899354</longitud>
-                    <latitud>37.3851509</latitud>
-                    <altitud>14</altitud>
-                </coordenada>
+                <nombreHito>Hospital de los Venerables</nombreHito>
+                <descripcionHito>Edificio barroco situado en el barrio de Santa Cruz.</descripcionHito>
+                <coordenada><longitud>-5.989935</longitud><latitud>37.385151</latitud><altitud>14</altitud></coordenada>
                 <distanciaAnterior unidades="metros">250</distanciaAnterior>
-                <galeriaFotos>
-                    <foto>venerables.jpg</foto>
-                </galeriaFotos>
+                <galeriaFotos><foto>venerables.jpg</foto></galeriaFotos>
             </hito>
-
             <hito>
                 <nombreHito>Catedral de Sevilla</nombreHito>
-                <descripcionHito>La catedral gótica más grande del mundo y su Giralda.</descripcionHito>
-                <coordenada>
-                    <longitud>-5.9931068</longitud>
-                    <latitud>37.3858247</latitud>
-                    <altitud>11</altitud>
-                </coordenada>
+                <descripcionHito>Catedral gótica y antiguo alminar de la Giralda.</descripcionHito>
+                <coordenada><longitud>-5.993107</longitud><latitud>37.385825</latitud><altitud>11</altitud></coordenada>
                 <distanciaAnterior unidades="metros">350</distanciaAnterior>
-                <galeriaFotos>
-                    <foto>catedral.jpg</foto>
-                </galeriaFotos>
+                <galeriaFotos><foto>catedral.jpg</foto></galeriaFotos>
             </hito>
-
             <hito>
                 <nombreHito>Palacio de San Telmo</nombreHito>
-                <descripcionHito>Sede de la Presidencia de la Junta, joya del barroco sevillano.</descripcionHito>
-                <coordenada>
-                    <longitud>-5.9936221</longitud>
-                    <latitud>37.380243</latitud>
-                    <altitud>9</altitud>
-                </coordenada>
+                <descripcionHito>Antiguo colegio de mareantes y ejemplo destacado del barroco sevillano.</descripcionHito>
+                <coordenada><longitud>-5.993622</longitud><latitud>37.380243</latitud><altitud>9</altitud></coordenada>
                 <distanciaAnterior unidades="metros">650</distanciaAnterior>
-                <galeriaFotos>
-                    <foto>santelmo.jpg</foto>
-                </galeriaFotos>
+                <galeriaFotos><foto>santelmo.jpg</foto></galeriaFotos>
             </hito>
-
             <hito>
                 <nombreHito>Real Parroquia de Señora Santa Ana</nombreHito>
-                <descripcionHito>Iglesia gótico-mudéjar en el corazón del barrio de Triana.</descripcionHito>
-                <coordenada>
-                    <longitud>-6.0005431</longitud>
-                    <latitud>37.3828228</latitud>
-                    <altitud>10</altitud>
-                </coordenada>
+                <descripcionHito>Iglesia histórica del barrio de Triana.</descripcionHito>
+                <coordenada><longitud>-6.000543</longitud><latitud>37.382823</latitud><altitud>10</altitud></coordenada>
                 <distanciaAnterior unidades="metros">750</distanciaAnterior>
-                <galeriaFotos>
-                    <foto>santaana.jpg</foto>
-                </galeriaFotos>
-            </hito>
-
-            <hito>
-                <nombreHito>Iglesia Colegial del Divino Salvador</nombreHito>
-                <descripcionHito>Segundo templo más grande de la ciudad tras la Catedral.</descripcionHito>
-                <coordenada>
-                    <longitud>-5.9928375</longitud>
-                    <latitud>37.3899966</latitud>
-                    <altitud>15</altitud>
-                </coordenada>
-                <distanciaAnterior unidades="metros">1200</distanciaAnterior>
-                <galeriaFotos>
-                    <foto>salvador.jpg</foto>
-                </galeriaFotos>
+                <galeriaFotos><foto>santaana.jpg</foto></galeriaFotos>
             </hito>
         </hitos>
+        <planimetria>planimetria-ruta-1.kml</planimetria>
+        <altimetria>altimetria-ruta-1.svg</altimetria>
+    </ruta>
+    <ruta>
+        <nombre>Sevilla de Plazas, Iglesias y Tapas</nombre>
+        <tipo>Mixta tapas y monumentos</tipo>
+        <transporte>A pie</transporte>
+        <fecha>2026-05-03</fecha>
+        <hora>18:00:00</hora>
+        <duracion>3 horas</duracion>
+        <agencia>Sevilla Sabores</agencia>
+        <descripcion>Ruta urbana de tarde por plazas, templos y zonas de tapeo del centro, pensada para conocer el ambiente local sin salir del casco histórico.</descripcion>
+        <personas>Apta para adultos, tercera edad y familias con niños.</personas>
+        <lugarInicio>Plaza Nueva</lugarInicio>
+        <direccionInicio>Plaza Nueva, Sevilla</direccionInicio>
+        <coordenada>
+            <longitud>-5.995400</longitud>
+            <latitud>37.388630</latitud>
+            <altitud>8</altitud>
+        </coordenada>
+        <referencias>
+            <referencia>https://www.visitasevilla.es/</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Plaza_Nueva_(Sevilla)</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Iglesia_del_Salvador_(Sevilla)</referencia>
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>Plaza Nueva</nombreHito>
+                <descripcionHito>Plaza céntrica junto al Ayuntamiento de Sevilla.</descripcionHito>
+                <coordenada><longitud>-5.995400</longitud><latitud>37.388630</latitud><altitud>8</altitud></coordenada>
+                <distanciaAnterior unidades="metros">0</distanciaAnterior>
+                <galeriaFotos><foto>catedral.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Iglesia del Salvador</nombreHito>
+                <descripcionHito>Gran templo barroco con plaza de ambiente gastronómico.</descripcionHito>
+                <coordenada><longitud>-5.992838</longitud><latitud>37.389997</latitud><altitud>15</altitud></coordenada>
+                <distanciaAnterior unidades="metros">300</distanciaAnterior>
+                <galeriaFotos><foto>salvador.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Metropol Parasol</nombreHito>
+                <descripcionHito>Mirador contemporáneo sobre la plaza de la Encarnación.</descripcionHito>
+                <coordenada><longitud>-5.991880</longitud><latitud>37.393190</latitud><altitud>18</altitud></coordenada>
+                <distanciaAnterior unidades="metros">420</distanciaAnterior>
+                <galeriaFotos><foto>gastronomia_sevilla.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Alameda de Hércules</nombreHito>
+                <descripcionHito>Paseo histórico con bares, terrazas y actividad cultural.</descripcionHito>
+                <coordenada><longitud>-5.994700</longitud><latitud>37.397500</latitud><altitud>13</altitud></coordenada>
+                <distanciaAnterior unidades="metros">650</distanciaAnterior>
+                <galeriaFotos><foto>venerables.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Mercado de Feria</nombreHito>
+                <descripcionHito>Mercado tradicional cercano a la calle Feria y a zonas de tapas.</descripcionHito>
+                <coordenada><longitud>-5.990900</longitud><latitud>37.397000</latitud><altitud>12</altitud></coordenada>
+                <distanciaAnterior unidades="metros">450</distanciaAnterior>
+                <galeriaFotos><foto>gastronomia_sevilla.jpg</foto></galeriaFotos>
+            </hito>
+        </hitos>
+        <planimetria>planimetria-ruta-2.kml</planimetria>
+        <altimetria>altimetria-ruta-2.svg</altimetria>
+    </ruta>
+    <ruta>
+        <nombre>Guadalquivir y Parque de María Luisa</nombre>
+        <tipo>Paisajística</tipo>
+        <transporte>Bicicleta</transporte>
+        <hora>09:30:00</hora>
+        <duracion>2 horas</duracion>
+        <agencia>BiciTur Sevilla</agencia>
+        <descripcion>Itinerario suave en bicicleta por la ribera del Guadalquivir, el entorno de la Torre del Oro y los jardines del Parque de María Luisa.</descripcion>
+        <personas>Personas con manejo básico de bicicleta y condición física normal.</personas>
+        <lugarInicio>Torre del Oro</lugarInicio>
+        <direccionInicio>Paseo de Cristóbal Colón, Sevilla</direccionInicio>
+        <coordenada>
+            <longitud>-5.996294</longitud>
+            <latitud>37.382617</latitud>
+            <altitud>7</altitud>
+        </coordenada>
+        <referencias>
+            <referencia>https://www.visitasevilla.es/</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Parque_de_Mar%C3%ADa_Luisa</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Torre_del_Oro</referencia>
+        </referencias>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>Torre del Oro</nombreHito>
+                <descripcionHito>Torre defensiva junto al Guadalquivir.</descripcionHito>
+                <coordenada><longitud>-5.996294</longitud><latitud>37.382617</latitud><altitud>7</altitud></coordenada>
+                <distanciaAnterior unidades="metros">0</distanciaAnterior>
+                <galeriaFotos><foto>santelmo.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Palacio de San Telmo</nombreHito>
+                <descripcionHito>Fachada barroca situada entre el río y los jardines históricos.</descripcionHito>
+                <coordenada><longitud>-5.993622</longitud><latitud>37.380243</latitud><altitud>9</altitud></coordenada>
+                <distanciaAnterior unidades="metros">350</distanciaAnterior>
+                <galeriaFotos><foto>santelmo.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Glorieta de Bécquer</nombreHito>
+                <descripcionHito>Conjunto escultórico dedicado al poeta Gustavo Adolfo Bécquer.</descripcionHito>
+                <coordenada><longitud>-5.989560</longitud><latitud>37.377690</latitud><altitud>11</altitud></coordenada>
+                <distanciaAnterior unidades="metros">550</distanciaAnterior>
+                <galeriaFotos><foto>santaana.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Plaza de España</nombreHito>
+                <descripcionHito>Conjunto monumental de la Exposición Iberoamericana de 1929.</descripcionHito>
+                <coordenada><longitud>-5.986944</longitud><latitud>37.377222</latitud><altitud>10</altitud></coordenada>
+                <distanciaAnterior unidades="metros">400</distanciaAnterior>
+                <galeriaFotos><foto>alcazar.jpg</foto></galeriaFotos>
+            </hito>
+            <hito>
+                <nombreHito>Costurero de la Reina</nombreHito>
+                <descripcionHito>Edificio historicista situado junto al parque y el paseo del río.</descripcionHito>
+                <coordenada><longitud>-5.991860</longitud><latitud>37.375800</latitud><altitud>8</altitud></coordenada>
+                <distanciaAnterior unidades="metros">700</distanciaAnterior>
+                <galeriaFotos><foto>catedral.jpg</foto></galeriaFotos>
+            </hito>
+        </hitos>
+        <planimetria>planimetria-ruta-3.kml</planimetria>
+        <altimetria>altimetria-ruta-3.svg</altimetria>
     </ruta>
 </rutas>

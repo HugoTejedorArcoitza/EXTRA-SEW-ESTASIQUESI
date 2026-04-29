@@ -1,45 +1,215 @@
 /* Especificidad: (0,0,1) */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4; /* Heredado por todos los elementos hijos [cite: 104] */
-    color: #333333;
+    background-color: #f7f3ed;
+    color: #1f2933;
 }
 
 /* Especificidad: (0,0,1) */
 header {
-    background-color: #9c27b0; 
-}
-
-/* Especificidad: (0,0,2) */
-header h1 {
-    font-size: 2em;
+    background-color: #004f59;
+    color: #ffffff;
 }
 
 /* Especificidad: (0,0,3) */
 header h1 a {
+    color: #ffffff; /* Contraste AAA con el fondo #004f59 definido en header. */
     text-decoration: none;
-    color: #ffffff; /* Color de primer plano que hereda del fondo del header [cite: 104] */
 }
 
 /* Especificidad: (0,0,2) */
 nav a {
+    color: #ffffff; /* Contraste AAA con el fondo #004f59 definido en header. */
     text-decoration: none;
-    color: #ffffff;
 }
 
-/* Especificidad: (0,1,2) - Excepción permitida de clase [cite: 58, 92] */
+/* Especificidad: (0,1,2). Excepción permitida para marcar el enlace activo del menú. */
 nav a.activo {
     font-weight: bold;
     text-decoration: underline;
 }
 
-/* Especificidad: (0,0,2) - Estilo para migas de navegación  */
-main > p {
-    font-size: 0.8em;
-    margin-bottom: 1em;
+/* Especificidad: (0,0,2) */
+body > p {
+    color: #5b6670; /* Contraste AAA con el fondo #f7f3ed definido en body. */
+    font-size: 0.9em;
+}
+
+/* Especificidad: (0,0,3) */
+body > p a {
+    color: #005a8d; /* Contraste AAA con el fondo #f7f3ed definido en body. */
+}
+
+/* Especificidad: (0,0,1) */
+main {
+    background-color: #ffffff;
+    color: #1f2933;
+}
+
+/* Especificidad: (0,0,1) */
+h2 {
+    color: #004f59; /* Contraste AAA con el fondo #ffffff definido en main. */
+}
+
+/* Especificidad: (0,0,1) */
+h3 {
+    color: #7a3b00; /* Contraste AAA con el fondo #ffffff definido en main. */
+}
+
+/* Especificidad: (0,0,1) */
+h4 {
+    color: #004f59; /* Contraste AAA con el fondo #ffffff definido en main. */
+}
+
+/* Especificidad: (0,0,1) */
+a {
+    color: #005a8d; /* Contraste AAA con los fondos claros definidos en body y main. */
+}
+
+/* Especificidad: (0,0,1) */
+button {
+    background-color: #006d75;
+    color: #ffffff;
+    border: 0.12em solid #004f59;
+    font: inherit;
+    cursor: pointer;
+}
+
+/* Especificidad: (0,1,1) */
+button:disabled {
+    background-color: #6f7c82;
+    color: #ffffff;
+    cursor: not-allowed;
 }
 
 /* Especificidad: (0,0,1) */
 table {
-    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Especificidad: (0,0,1) */
+caption {
+    font-weight: bold;
+}
+
+/* Especificidad: (0,0,1) */
+th {
+    background-color: #004f59;
+    color: #ffffff;
+}
+
+/* Especificidad: (0,0,1) */
+td {
+    border: 0.08em solid #8a949c;
+}
+
+/* Especificidad: (0,0,1) */
+th {
+    border: 0.08em solid #8a949c;
+}
+
+/* Especificidad: (0,0,1) */
+figure {
+    background-color: #eef6f4;
+    color: #1f2933;
+}
+
+/* Especificidad: (0,0,1) */
+figcaption {
+    font-weight: bold;
+}
+
+/* Especificidad: (0,0,1) */
+video {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Especificidad: (0,0,1) */
+fieldset {
+    border: 0.08em solid #8a949c;
+}
+
+/* Especificidad: (0,0,1) */
+legend {
+    font-weight: bold;
+    color: #004f59; /* Contraste AAA con el fondo #ffffff definido en main. */
+}
+
+/* Especificidad: (0,0,1) */
+footer {
+    background-color: #263238;
+    color: #ffffff;
+}
+
+/* Especificidad: (0,0,2) */
+article div {
+    background-color: #e6eef1;
+    color: #1f2933;
+    border: 0.08em solid #8a949c;
+}
+
+/* Especificidad: (0,0,3) */
+article div img {
+    border: 0;
+}
+
+/* Especificidad: (0,0,3) */
+article div svg {
+    background-color: rgba(255, 255, 255, 0.82);
+}
+
+/* Especificidad: (0,0,3) */
+article div p {
+    background-color: #ffffff;
+    color: #1f2933;
+}
+
+/* Especificidad: (0,0,3) */
+section article svg {
+    border: 0.08em solid #8a949c;
+}
+
+/* Especificidad: (0,0,1) */
+output {
+    background-color: #eef6f4;
+    color: #1f2933;
+    font-weight: bold;
+}
+
+/* Especificidad: (0,0,1) */
+input {
+    accent-color: #006d75;
+}
+
+/* Especificidad: (0,0,2) */
+tbody tr {
+    background-color: #ffffff;
+    color: #1f2933;
+}
+
+/* Especificidad: (0,1,2) */
+tbody tr:nth-child(even) {
+    background-color: #eef6f4;
+    color: #1f2933;
+}
+
+/* Especificidad: (0,0,3) */
+article figure img {
+    max-height: 20em;
+}
+
+/* Especificidad: (0,0,2) */
+section > p {
+    line-height: 1.55;
+}
+
+/* Especificidad: (0,0,2) */
+article > p {
+    line-height: 1.55;
+}
+
+/* Especificidad: (0,0,1) */
+strong {
+    color: #202124; /* Contraste AAA con el fondo #ffffff definido en main. */
 }

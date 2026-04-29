@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Mapa de situación de la provincia de Sevilla en Andalucía">
+    <title>Mapa de situación de Sevilla</title>
+    <rect width="900" height="560" fill="#f7f3ed" />
+    <path d="M155 310 L210 250 L305 220 L390 235 L472 198 L585 215 L710 270 L760 360 L700 442 L570 470 L455 438 L335 465 L248 420 Z" fill="#d9e8df" stroke="#5a6b5f" stroke-width="5" />
+    <path d="M392 236 L474 201 L543 230 L565 300 L531 366 L460 400 L395 363 L370 298 Z" fill="#006d75" stroke="#004f59" stroke-width="5" />
+    <circle cx="464" cy="310" r="13" fill="#ffffff" stroke="#7a3b00" stroke-width="6" />
+    <text x="450" y="190" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#004f59">Sevilla</text>
+    <text x="264" y="510" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2933">Situación en Andalucía</text>
+</svg>

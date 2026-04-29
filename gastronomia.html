@@ -4,94 +4,119 @@
     <meta charset="UTF-8" />
     <title>Sevilla-Desktop - Gastronomía</title>
     <meta name="author" content="Hugo Tejedor" />
+    <meta name="description" content="Gastronomía típica de la provincia de Sevilla" />
+    <meta name="keywords" content="Sevilla, gastronomía, tapas, gazpacho, torrijas" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <header>
-        <h1><a href="index.html">Sevilla-Desktop</a></h1>
+        <h1><a href="index.html" title="Volver a la página principal">Sevilla-Desktop</a></h1>
         <nav>
-            <a href="index.html">Inicio</a>
-            <a href="gastronomia.html" class="activo">Gastronomía</a>
-            <a href="rutas.html">Rutas</a>
-            <a href="meteorologia.html">Meteorología</a>
-            <a href="juego.html">Juego</a>
-            <a href="reservas.php">Reservas</a>
-            <a href="ayuda.html">Ayuda</a>
+            <a href="index.html" title="Inicio">Inicio</a>
+            <a href="gastronomia.html" class="activo" title="Gastronomía">Gastronomía</a>
+            <a href="rutas.html" title="Rutas">Rutas</a>
+            <a href="meteorologia.html" title="Meteorología">Meteorología</a>
+            <a href="juego.html" title="Juego">Juego</a>
+            <a href="reservas.php" title="Reservas">Reservas</a>
+            <a href="ayuda.html" title="Ayuda">Ayuda</a>
         </nav>
     </header>
 
-    <p>Estás en: <a href="index.html">Inicio</a> >> Gastronomía</p>
+    <p>Estás en: <a href="index.html">Inicio</a> &gt; Gastronomía</p>
 
     <main>
         <section>
-            <h2>Gastronomía Típica de Sevilla</h2>
-            
-            <h3>Platos Principales</h3>
-            <ol>
-                <li>Gazpacho andaluz</li>
-                <li>Pescaito frito</li>
-                <li>Soldaditos de Pavía
-                    <ul>
-                        <li>Bacalao desalado</li>
-                        <li>Rebozado de harina y azafrán</li>
-                    </ul>
-                </li>
-            </ol>
+            <h2>Gastronomía típica de Sevilla</h2>
+            <p>La cocina sevillana combina productos de la huerta, recetas frías para el verano, frituras ligeras y dulces muy vinculados a celebraciones populares.</p>
 
-            <h3>Ingredientes Comunes</h3>
-            <ul>
-                <li>Aceite de oliva virgen extra</li>
-                <li>Aceitunas de mesa (Manzanilla y Gordal)</li>
-                <li>Naranjas amargas</li>
-            </ul>
+            <article>
+                <h3>Platos principales</h3>
+                <ol>
+                    <li>Gazpacho andaluz</li>
+                    <li>Pescaíto frito</li>
+                    <li>Soldaditos de Pavía</li>
+                </ol>
+            </article>
 
-            <h3>Conceptos Gastronómicos</h3>
-            <dl>
-                <dt>Tapeo</dt>
-                <dd>Costumbre de comer pequeñas raciones de diferentes platos.</dd>
-                <dt>Montadito</dt>
-                <dd>Pequeño bocadillo de diversos ingredientes calientes o fríos.</dd>
-                <dt>Adobo</dt>
-                <dd>Técnica de marinado para carnes y pescados con especias y vinagre.</dd>
-            </dl>
+            <article>
+                <h3>Ingredientes comunes</h3>
+                <ul>
+                    <li>Aceite de oliva virgen extra</li>
+                    <li>Aceitunas de mesa
+                        <ul>
+                            <li>Manzanilla</li>
+                            <li>Gordal</li>
+                            <li>Hojiblanca</li>
+                        </ul>
+                    </li>
+                    <li>Naranjas amargas</li>
+                </ul>
+            </article>
 
-            <h3>Estadísticas de Consumo</h3>
-            <table border="1">
-                <caption>Consumo estimado de platos típicos por temporada</caption>
-                <thead>
-                    <tr>
-                        <th id="plato" scope="col">Plato</th>
-                        <th id="temporada" scope="col">Temporada Alta</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td headers="plato">Gazpacho</td>
-                        <td headers="temporada">Verano</td>
-                    </tr>
-                    <tr>
-                        <td headers="plato">Cocido Andaluz</td>
-                        <td headers="temporada">Invierno</td>
-                    </tr>
-                    <tr>
-                        <td headers="plato">Torrijas</td>
-                        <td headers="temporada">Semana Santa</td>
-                    </tr>
-                </tbody>
-            </table>
+            <article>
+                <h3>Conceptos gastronómicos</h3>
+                <dl>
+                    <dt>Tapeo</dt>
+                    <dd>Costumbre de compartir pequeñas raciones de distintos platos.</dd>
+                    <dt>Montadito</dt>
+                    <dd>Pequeño bocadillo con ingredientes fríos o calientes.</dd>
+                    <dt>Adobo</dt>
+                    <dd>Técnica de marinado con vinagre, ajo, orégano y especias.</dd>
+                </dl>
+            </article>
 
-            <h3>Galería Multimedia</h3>
-            <img src="multimedia/gastronomia_sevilla.jpg" alt="Surtido de tapas típicas sevillanas en un plato de cerámica" />
-            
-            <video controls>
-                <source src="multimedia/receta_gazpacho.mp4" type="video/mp4">
-                <source src="multimedia/receta_gazpacho.webm" type="video/webm">
-                Tu navegador no soporta el vídeo.
-            </video>
+            <article>
+                <h3>Temporada recomendada</h3>
+                <label for="filtro-plato">Referencia de consulta de platos</label>
+                <input id="filtro-plato" type="text" value="Platos típicos sevillanos" readonly />
+                <table>
+                    <caption>Consumo estimado de platos típicos por temporada</caption>
+                    <thead>
+                        <tr>
+                            <th id="plato" scope="col">Plato</th>
+                            <th id="temporada" scope="col">Temporada alta</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td headers="plato">Gazpacho</td>
+                            <td headers="temporada">Verano</td>
+                        </tr>
+                        <tr>
+                            <td headers="plato">Cocido andaluz</td>
+                            <td headers="temporada">Invierno</td>
+                        </tr>
+                        <tr>
+                            <td headers="plato">Torrijas</td>
+                            <td headers="temporada">Semana Santa</td>
+                        </tr>
+                        <tr>
+                            <td headers="plato">Espinacas con garbanzos</td>
+                            <td headers="temporada">Otoño e invierno</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h3>Galería multimedia</h3>
+                <figure>
+                    <img src="multimedia/gastronomia_sevilla.jpg" alt="Surtido de tapas típicas sevillanas en un plato de cerámica" />
+                    <figcaption>Tapas típicas sevillanas.</figcaption>
+                </figure>
+                <video controls preload="metadata">
+                    <source src="multimedia/receta_gazpacho.mp4" type="video/mp4" />
+                    <source src="multimedia/receta_gazpacho.webm" type="video/webm" />
+                    Tu navegador no soporta el vídeo.
+                </video>
+            </article>
         </section>
     </main>
+
+    <footer>
+        <p>Proyecto de Software y Estándares para la Web.</p>
+    </footer>
 </body>
 </html>

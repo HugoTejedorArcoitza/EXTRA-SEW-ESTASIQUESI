@@ -1,0 +1,6 @@
+id_recurso,id_tipo,nombre,descripcion,plazas,inicio,fin,precio
+1,1,Sevilla Monumental y Triana,"Ruta guiada por el Alcázar, la Catedral, el río y Triana.",25,2026-05-02 10:00:00,2026-05-02 14:00:00,18.00
+2,1,"Plazas, iglesias y tapas","Recorrido de tarde por plazas, iglesias y zonas de tapeo.",20,2026-05-03 18:00:00,2026-05-03 21:00:00,22.00
+3,2,Visita al Archivo de Indias,"Actividad cultural en uno de los espacios patrimoniales del centro.",30,2026-05-04 11:00:00,2026-05-04 12:30:00,8.00
+4,4,Mirador urbano de Sevilla,"Entrada a mirador con explicación panorámica de la ciudad.",40,2026-05-05 19:00:00,2026-05-05 20:00:00,12.00
+5,3,Degustación de tapas sevillanas,"Menú degustación con platos típicos de Sevilla.",35,2026-05-06 13:30:00,2026-05-06 15:00:00,28.00

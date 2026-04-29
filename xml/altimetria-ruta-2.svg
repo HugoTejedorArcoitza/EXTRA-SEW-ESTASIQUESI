@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-label="Altimetría de Sevilla de Plazas, Iglesias y Tapas">
+    <title>Altimetría de Sevilla de Plazas, Iglesias y Tapas</title>
+    <desc>Polilínea cerrada con escala horizontal en metros y escala vertical en metros.</desc>
+    <rect x="0" y="0" width="900" height="320" fill="#ffffff" />
+    <line x1="50" y1="270" x2="850" y2="270" stroke="#263238" stroke-width="2" />
+    <line x1="50" y1="50" x2="50" y2="270" stroke="#263238" stroke-width="2" />
+    <text x="450.0" y="308" text-anchor="middle">Distancia acumulada: 1820 m</text>
+    <text x="18" y="160.0" transform="rotate(-90 18 160.0)">Altitud: 8-18 m</text>
+    <polyline points="50,270 50.00,270.00 181.87,116.00 366.48,50.00 652.20,160.00 850.00,182.00 850,270" fill="#dff1ed" stroke="#006d75" stroke-width="4" />
+    <circle cx="50.00" cy="270.00" r="5" />
+        <circle cx="181.87" cy="116.00" r="5" />
+        <circle cx="366.48" cy="50.00" r="5" />
+        <circle cx="652.20" cy="160.00" r="5" />
+        <circle cx="850.00" cy="182.00" r="5" />
+    <text x="50.00" y="258.00" transform="rotate(-25 50.00 258.00)">Plaza Nueva</text><text x="181.87" y="104.00" transform="rotate(-25 181.87 104.00)">Iglesia del Salvador</text><text x="366.48" y="38.00" transform="rotate(-25 366.48 38.00)">Metropol Parasol</text><text x="652.20" y="148.00" transform="rotate(-25 652.20 148.00)">Alameda de Hércules</text><text x="850.00" y="170.00" transform="rotate(-25 850.00 170.00)">Mercado de Feria</text>
+</svg>
